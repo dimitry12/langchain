@@ -4,5 +4,6 @@ from langchain.vectorstores.elastic_vector_search import ElasticVectorSearch
 from langchain.vectorstores.faiss import FAISS
 from langchain.vectorstores.pinecone import Pinecone
 from langchain.vectorstores.weaviate import Weaviate
+from langchain.vectorstores.numpy import NumpyVectorStore
 
-__all__ = ["ElasticVectorSearch", "FAISS", "VectorStore", "Pinecone", "Weaviate"]
+__all__ = ["ElasticVectorSearch", "FAISS", "VectorStore", "Pinecone", "Weaviate", "NumpyVectorStore"]
